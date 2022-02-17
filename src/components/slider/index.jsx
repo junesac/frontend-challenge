@@ -17,7 +17,18 @@ const Slider = () => {
     <div ref={sliderRef} className='keen-slider'>
       {sliderData.map(page => (
         <div key={`page-${page.id}`} className={classNames('keen-slider__slide', `number-slide${page.id}`)}>
-          {page.id}
+          <div className='mainPage'>
+            <div className='upperPart'>
+              <div className='number' style={{ background: page.color }}>
+                {page.id}
+              </div>
+              <div className='title'>{page.title}</div>
+              <div className='description'>{page.description}</div>
+            </div>
+            <div className='lowerPart'>
+              <img className='image' src={page.icon} />
+            </div>
+          </div>
         </div>
       ))}
     </div>
