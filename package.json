@@ -33,6 +33,18 @@
       "react-app/jest"
     ]
   },
+  "husky": {
+    "scripts": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "src/**/*.{ts,tsx,js,jsx}": [
+      "yarn format",
+      "yarn lint --fix",
+      "git add"
+    ]
+  },
   "browserslist": {
     "production": [
       ">0.2%",
@@ -57,7 +69,8 @@
     "eslint-plugin-react": "^7.28.0",
     "eslint-plugin-react-hooks": "^4.3.0",
     "husky": "^7.0.4",
-    "prettier": "^2.4.1",
+    "lint-staged": "^12.3.4",
+    "prettier": "^2.5.1",
     "prettier-eslint": "^13.0.0"
   }
 }
