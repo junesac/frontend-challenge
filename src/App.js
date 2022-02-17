@@ -1,13 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
-import Slider from './components/slider';
+import React from 'react'
+import './App.css'
+import Slider from './components/slider'
 
-function App() {
+function App () {
   return (
     <div className="App">
       <Slider />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

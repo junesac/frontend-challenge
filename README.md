@@ -68,3 +68,9 @@ The items outlined so far are what we would consider the minimum set of requirem
 2. A commit modifying the `README` around the same time frame as the email mentioned above. The change can be anything. Similarly, it should mark the beginning of your work on the quiz.
 
 3. An email notifying somebody from our team that you have completed your work.
+
+
+Ref Links:
+https://codesandbox.io/s/github/rcbyr/keen-slider-sandboxes/tree/v6/basic/loop-min-max/react?file=/src/App.js
+
+https://github.com/junesac/crwn-clothing/tree/master/src
